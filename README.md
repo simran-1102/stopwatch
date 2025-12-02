@@ -9,6 +9,9 @@ Lap time recording with
 Millisecond precision (00:00:00.00 format)
 Responsive design works on all devices
 Modern UI with intuitive controls
+
+
+
 Keyboard shortcuts (Space=Start/Pause, L=Lap, R=Reset)
 🛠️ Technologies Used
 HTML5 - Structure
