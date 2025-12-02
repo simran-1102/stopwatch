@@ -3,7 +3,7 @@ A responsive, feature-rich stopwatch built with HTML, CSS, and JavaScript. Perfe
 
 
 
- Features
+1. Features
 
 Start/Pause/Reset functionality
 
@@ -17,7 +17,7 @@ Modern UI with intuitive controls
 
 
 
-Keyboard shortcuts (Space=Start/Pause, L=Lap, R=Reset)
+2. Keyboard shortcuts (Space=Start/Pause, L=Lap, R=Reset)
 
 Technologies Used
 
