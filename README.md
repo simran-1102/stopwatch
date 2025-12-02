@@ -3,7 +3,7 @@ A responsive, feature-rich stopwatch built with HTML, CSS, and JavaScript. Perfe
 
 
 
-🚀 Features
+ Features
 
 Start/Pause/Reset functionality
 
@@ -18,8 +18,13 @@ Modern UI with intuitive controls
 
 
 Keyboard shortcuts (Space=Start/Pause, L=Lap, R=Reset)
-🛠️ Technologies Used
+
+Technologies Used
+
 HTML5 - Structure
+
 CSS3 - Styling and animations
+
 JavaScript - Core functionality
+
 GitHub Pages - Free hosting
