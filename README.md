@@ -4,10 +4,15 @@ A responsive, feature-rich stopwatch built with HTML, CSS, and JavaScript. Perfe
 
 
 🚀 Features
+
 Start/Pause/Reset functionality
+
 Lap time recording with 
+
 Millisecond precision (00:00:00.00 format)
+
 Responsive design works on all devices
+
 Modern UI with intuitive controls
 
 
