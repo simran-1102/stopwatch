@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #5f83b9 0%, #c3cfe2 100%);
+    margin: 0;
+    padding: 20px;
+}
+
+.stopwatch-container {
+    background-color: rgb(209, 206, 206);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#startBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pauseBtn {
+    background-color: #f39c12;
+    color: white;
+}
+
+#resetBtn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#lapBtn {
+    background-color: #3498db;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.laps-container {
+    margin-top: 20px;
+}
+
+#lapsList {
+    list-style-type: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#lapsList li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lapsList li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
